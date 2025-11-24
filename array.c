@@ -5,7 +5,7 @@ int* inputarr(int* n);
 int* nhapmang(int* n);
 
 int main(){
-    int n = 0,x;
+    int n = 0;
     int* ptr = inputarr(&n);
     ptr = nhapmang(&n);
     
